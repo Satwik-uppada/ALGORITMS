@@ -1,7 +1,7 @@
 package Algorithms;
 
 public  class fabonacci_series {
-    public  int fabonacci(int count){
+    public static  int fabonacci(int count){
         if(count==0)
         {
             return 1;
@@ -11,6 +11,15 @@ public  class fabonacci_series {
         }
         return count;
     }
-//UPDATW
+
+    public static void main(String[] args) {
+        int  fn;
+        int f0=0;
+        int f1=1;
+        fn=f0+f1;
+        f0=f1;
+        f1=fn;
+
+    }
 
 }
